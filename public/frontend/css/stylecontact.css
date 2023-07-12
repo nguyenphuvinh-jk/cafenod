@@ -1,0 +1,124 @@
+
+.form-area{
+    padding: 5%;
+    padding-bottom: 10%;
+}
+.row.single-form{
+    background: #fff;
+}
+.left{
+    background: #212529!important;
+    padding: 200px 98px;
+}
+.left h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top:40%;
+    color: #fff;
+}
+
+.main_contact_info_wrap {
+    display: flex;
+    padding-top:50px;
+    flex-wrap: nowrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: space-between;
+}
+.main_contact_info_wrap .contact_info_item {
+    max-width: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.contact_info_item {
+    display: flex;
+    align-items: center;
+}
+.contact_info_item .item_icon {
+    height: 80px;
+    min-width: 80px;
+    font-size: 24px;
+    margin-right: 20px;
+    border-radius: 2px;
+    align-items: center;
+    display: inline-flex;
+    color: #c7a17a;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.contact_info_item .item_title {
+    line-height: 1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact_info_item p {
+    line-height: 1.4;
+    margin-bottom: 0px;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #c7a17a;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(199, 161, 122, 0.31);
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.form-control{
+    border: 2px solid #c7a17a;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display:  inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button :hover{
+    background: #252525;
+}
+.map-area{
+    width: 100%;
+    height: 400px;
+    background: #ffff;
+    box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+}
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+@media(max-width:991px) {
+    .contact-form{
+        margin-bottom: 30px;
+    }
+    .map-area{
+        width: 100%;
+        height: 400%;
+    }
+}
